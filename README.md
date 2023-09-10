@@ -13,34 +13,34 @@ The JANINI system was built using the following components: Arduino UNO: The mic
 
 The process of building the project involved the following steps:
 
-# Setting up the Arduino and GSM Module: 
+Setting up the Arduino and GSM Module:
 The Arduino IDE was used to program the Arduino UNO to communicate with the GSM module through AT commands. The GSM module was configured to receive SMS messages.
 
-# Creating the Home Automation Interface: 
+Creating the Home Automation Interface: 
 Relays were connected to the Arduino, which acted as switches for controlling the power supply of different home devices. The microcontroller was programmed to interpret specific keywords in received SMS and toggle the corresponding relays accordingly.
 
-# Implementing Voice Automation: 
+Implementing Voice Automation: 
 VS Code was utilized to develop voice automation functionality. Speech recognition libraries were employed to convert voice commands into text. The Arduino was connected to the computer running VS Code, and the commands were transmitted to the Arduino via a serial connection.
 
-# Password Protection: 
+Password Protection: 
 To ensure security, a password system was implemented in the SMS commands. Only authorized users with the correct password could control the home devices.
 
-# Testing and Debugging: 
+Testing and Debugging: 
 Rigorous testing was carried out to verify the system's functionality and robustness. Bugs and issues were identified and fixed during this phase.
 
-# Challenges we ran into
+Challenges we ran into
 Some of the main hurdles encountered were:
 
-# GSM Module Compatibility: 
+GSM Module Compatibility: 
 Not all GSM modules were compatible with the Arduino, leading to compatibility issues. Selecting the right GSM module was crucial for smooth communication.
 
-# Speech Recognition Accuracy:
+Speech Recognition Accuracy:
 Voice automation presented challenges in accuracy, especially in noisy environments or with accents. Fine-tuning the speech recognition system was necessary to enhance its performance.
 
-# Real-time Responsiveness: 
+Real-time Responsiveness: 
 Ensuring real-time responsiveness of the system was essential, especially when receiving SMS commands. Delays in processing SMS messages could lead to unsatisfactory user experiences.
 
-# Power Management: 
+Power Management: 
 Managing power consumption was critical, especially in areas with limited power supply. The system needed to be energy-efficient to conserve resources.
 
 # Accomplishments:  
